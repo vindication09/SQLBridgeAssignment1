@@ -65,7 +65,7 @@ limit 5;
 
 #--Q8: Custom Question 
 #--Q8: Custom Question
-#--Show the top 5 average distances by flights in desc order 
+#--Show the top 5 average distances by carrier in desc order 
 select carrier, avg(distance) as 'Avg Distance'
 from flights
 group by carrier
